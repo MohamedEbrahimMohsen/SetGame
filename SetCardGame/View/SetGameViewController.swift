@@ -31,6 +31,7 @@ class SetGameViewController: UIViewController {
     @IBOutlet weak var newGameBtnLabel: BorderButton!
     @IBOutlet weak var deal3CardsBtnLabel: BorderButton!
     
+    @IBOutlet weak var Hint_NewGame_Deal3_StackView: UIStackView!
     @objc private func deal3Cards(_ sender: UITapGestureRecognizer){
         switch sender.state{
         case .ended:
@@ -192,6 +193,10 @@ class SetGameViewController: UIViewController {
         timerLabel.text = String(format: "%02d:%02d", minutes, seconds)
     }
 
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        Hint_NewGame_Deal3_StackView.axis = traitCollection.verticalSizeClass == .compact ? UILayoutConstraintAxis.vertical : UILayoutConstraintAxis.horizontal
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
