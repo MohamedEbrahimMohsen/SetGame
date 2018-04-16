@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50M-nm-KbW" customClass="BorderButton" customModule="SetCardGame" customModuleProvider="target">
-                                <rect key="frame" x="124" y="714" width="127" height="44"/>
+                                <rect key="frame" x="0.0" y="714" width="375" height="44"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="27"/>
                                 <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="New Game">
@@ -39,9 +39,9 @@
                             <constraint firstItem="25h-jX-fnj" firstAttribute="top" secondItem="4Qn-DZ-sOs" secondAttribute="top" id="ISy-bS-3kR"/>
                             <constraint firstItem="25h-jX-fnj" firstAttribute="leading" secondItem="blB-qn-vbf" secondAttribute="leading" id="V2g-de-K6L"/>
                             <constraint firstItem="blB-qn-vbf" firstAttribute="bottom" secondItem="50M-nm-KbW" secondAttribute="bottom" constant="20" id="caY-nu-Vjl"/>
-                            <constraint firstItem="blB-qn-vbf" firstAttribute="trailing" secondItem="50M-nm-KbW" secondAttribute="trailing" constant="124" id="cwA-nk-LHg"/>
+                            <constraint firstItem="blB-qn-vbf" firstAttribute="trailing" secondItem="50M-nm-KbW" secondAttribute="trailing" id="cwA-nk-LHg"/>
                             <constraint firstItem="blB-qn-vbf" firstAttribute="bottom" secondItem="25h-jX-fnj" secondAttribute="bottom" id="uA6-mV-NbJ"/>
-                            <constraint firstItem="50M-nm-KbW" firstAttribute="leading" secondItem="blB-qn-vbf" secondAttribute="leading" constant="124" id="xRg-RM-cKj"/>
+                            <constraint firstItem="50M-nm-KbW" firstAttribute="leading" secondItem="blB-qn-vbf" secondAttribute="leading" id="xRg-RM-cKj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="blB-qn-vbf"/>
                     </view>
@@ -62,13 +62,13 @@
                                 <rect key="frame" x="0.0" y="34" width="375" height="744"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHe-1g-XuB">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                <rect key="frame" x="0.0" y="34" width="375" height="744"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ib6-3Q-j6W">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="744"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2ZP-og-oDW">
-                                            <rect key="frame" x="8" y="710" width="359" height="30"/>
+                                            <rect key="frame" x="8" y="676" width="359" height="30"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtC-3P-KfG" customClass="BorderButton" customModule="SetCardGame" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="113" height="30"/>
@@ -189,7 +189,7 @@
                             <constraint firstItem="Wdv-KM-aOl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="1om-Ys-DPQ"/>
                             <constraint firstItem="2ZP-og-oDW" firstAttribute="top" secondItem="Wdv-KM-aOl" secondAttribute="bottom" id="4VU-FB-31u"/>
                             <constraint firstItem="VHe-1g-XuB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8ls-Y9-M4U"/>
-                            <constraint firstItem="VHe-1g-XuB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AOD-bp-iLM"/>
+                            <constraint firstItem="VHe-1g-XuB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" priority="750" id="AOD-bp-iLM"/>
                             <constraint firstItem="VHe-1g-XuB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cfq-26-vhh"/>
                             <constraint firstItem="2ZP-og-oDW" firstAttribute="centerY" secondItem="zhv-mI-4c7" secondAttribute="centerY" id="Cjr-rr-cW3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Iof-6X-L23" secondAttribute="bottom" id="GJf-PZ-UK7"/>
